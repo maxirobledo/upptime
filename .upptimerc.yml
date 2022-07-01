@@ -1,31 +1,35 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: maxirobledo 
+repo: upptime 
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Snappy Chat
+    url: https://chat.snappylabs.io/
+  - name: Snappy LAPI
+    url: https://api.snappylabs.io/
+  - name: Snappy Payments
+    url: https://pp.snappylabs.io/
+  - name: Snappy app
+    url: https://app.snappycommerce.io/
+  - name: Snappy commerce
+    url: https://snappycommerce.io/
+  - name: Grafana test
+    url: http://147.182.233.223:32000/
+  
+assignees: maxirobledo
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.snappypreview.com
+  name: Snappy Status
+  theme: light
+  favicon: https://d2r9epyceweg5n.cloudfront.net/apps/2544-es_AR-small-06-%20Isotipo%20Variante%20(png).png
+  logoUrl: https://d2r9epyceweg5n.cloudfront.net/apps/2544-es_AR-small-06-%20Isotipo%20Variante%20(png).png
   navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Blog
+      href: https://blog.snappycommerce.io/
+    - title: Contact
+      href: https://snappycommerce.io/contact/
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Active Incidents
+  allSystemsOperational: All systems are operational
+  footer: Snappy Status - Powered by Upptime  
