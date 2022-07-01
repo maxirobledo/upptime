@@ -12,8 +12,8 @@ sites:
     url: https://app.snappycommerce.io/
   - name: Snappy commerce
     url: https://snappycommerce.io/
-  - name: Grafana test
-    url: http://147.182.233.223:32000/
+  - name: Hello world
+    url: https://example.snappypreview.com/
   
 assignees: maxirobledo
 
