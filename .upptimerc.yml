@@ -2,16 +2,6 @@ owner: maxirobledo
 repo: upptime 
 
 sites:
-  - name: Snappy Chat
-    url: https://chat.snappylabs.io/
-  - name: Snappy LAPI
-    url: https://api.snappylabs.io/
-  - name: Snappy Payments
-    url: https://pp.snappylabs.io/
-  - name: Snappy app
-    url: https://app.snappycommerce.io/
-  - name: Snappy commerce
-    url: https://snappycommerce.io/
   - name: Hello world
     url: https://example.snappypreview.com/
   
@@ -19,17 +9,11 @@ assignees: maxirobledo
 
 status-website:
  # cname: status.snappypreview.com
+  baseUrl: /upptime
   name: Snappy Status
   theme: light
-  favicon: https://d2r9epyceweg5n.cloudfront.net/apps/2544-es_AR-small-06-%20Isotipo%20Variante%20(png).png
-  logoUrl: https://d2r9epyceweg5n.cloudfront.net/apps/2544-es_AR-small-06-%20Isotipo%20Variante%20(png).png
-  navbar:
-    - title: Blog
-      href: https://blog.snappycommerce.io/
-    - title: Contact
-      href: https://snappycommerce.io/contact/
 
 i18n:
   activeIncidents: Active Incidents
   allSystemsOperational: All systems are operational
-  footer: Snappy Status - Powered by Upptime  
+  footer: Powered by Upptime  
