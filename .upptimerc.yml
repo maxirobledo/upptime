@@ -18,7 +18,7 @@ sites:
 assignees: maxirobledo
 
 status-website:
-  cname: status.snappypreview.com
+ # cname: status.snappypreview.com
   name: Snappy Status
   theme: light
   favicon: https://d2r9epyceweg5n.cloudfront.net/apps/2544-es_AR-small-06-%20Isotipo%20Variante%20(png).png
